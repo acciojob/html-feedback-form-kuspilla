@@ -1,37 +1,31 @@
 <!DOCTYPE html>
-
 <html>
-
 <head>
-	<link rel="stylesheet" href="styles.css">
-	<style>
-		form{
-		
-		}
-	</style>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        form {
+            /* Your CSS styles for the form go here */
+        }
+    </style>
 </head>
-
 <body>
-	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
-</script>
-<h1>Feedback Form</h1>
-	<form method = "post">
-		<lable for = Name>Name</lable>
-		<input type = "text" name = "Name" id = "name" minlength = "3" maxlength = "50" required></input>
-          <br>
-		<label for= 1 >Portfolio</label>
-		<input type = "url" required id = "portfolio" name = 1 required> </input>
-         <br>
-		<label for ="2" >Favorite Color</label>
-		<input type = "color" id = "favColor" name ="2" required> </input>
-         <br>
-		<label for = "3">Likeness</label>
-		<input type = "Range" name = "3" min = "1" max = "100" required> </input>
+    <!-- the entire body must be written by the student -->
+    <script type="text/javascript" src="./script.js"></script>
+    <h1>Feedback Form</h1>
+    <form method="post">
+        <label for="name">Name</label>
+        <input type="text" name="Name" id="name" minlength="3" maxlength="50" required><br>
+        
+        <label for="portfolio">Portfolio</label>
+        <input type="url" id="portfolio" name="Portfolio" required><br>
+        
+        <label for="favColor">Favorite Color</label>
+        <input type="color" id="favColor" name="FavoriteColor" required><br>
+        
+        <label for="likeness">Likeness</label>
+        <input type="range" name="Likeness" min="1" max="100" required><br>
 
-		<input type="submit" value="Submit">
-		
-	</form>
+        <input type="submit" value="Submit">
+    </form>
 </body>
-
 </html>
